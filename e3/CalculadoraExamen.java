@@ -1,3 +1,5 @@
+package com.example.project;
+
 public class CalculadoraExamen {
 	private int a;
 	private int b;
