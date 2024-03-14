@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GestorEmpleadosTest" project="junit5-migration-gradle" tests="3" started="3" failures="2" errors="0" ignored="0">
+  <testsuite name="com.example.project.GestorEmpleadosTest" time="0.022" displayname="GestorEmpleadosTest" uniqueid="[engine:junit-jupiter]/[class:com.example.project.GestorEmpleadosTest]">
+    <testcase name="testAgregarEmpleado" classname="com.example.project.GestorEmpleadosTest" time="0.008" displayname="testAgregarEmpleado()" uniqueid="[engine:junit-jupiter]/[class:com.example.project.GestorEmpleadosTest]/[method:testAgregarEmpleado()]"/>
+    <testcase name="testCalcularSalarioTotal" classname="com.example.project.GestorEmpleadosTest" time="0.008" displayname="testCalcularSalarioTotal()" uniqueid="[engine:junit-jupiter]/[class:com.example.project.GestorEmpleadosTest]/[method:testCalcularSalarioTotal()]">
+      <failure>
+        <expected>2500</expected>
+        <actual>3500</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;2500&gt; but was: &lt;3500&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:538)
+	at com.example.project.GestorEmpleadosTest.testCalcularSalarioTotal(GestorEmpleadosTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+
+      </failure>
+    </testcase>
+    <testcase name="testEmpleadoConMayorSalario" classname="com.example.project.GestorEmpleadosTest" time="0.002" displayname="testEmpleadoConMayorSalario()" uniqueid="[engine:junit-jupiter]/[class:com.example.project.GestorEmpleadosTest]/[method:testEmpleadoConMayorSalario()]">
+      <failure>
+        <expected>com.example.project.Empleado@f2f2cc1</expected>
+        <actual>com.example.project.Empleado@3a079870</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;com.example.project.Empleado@f2f2cc1&gt; but was: &lt;com.example.project.Empleado@3a079870&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.example.project.GestorEmpleadosTest.testEmpleadoConMayorSalario(GestorEmpleadosTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

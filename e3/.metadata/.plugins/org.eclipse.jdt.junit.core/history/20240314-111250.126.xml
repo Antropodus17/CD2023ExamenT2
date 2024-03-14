@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GestorEmpleadosTest" project="junit5-migration-gradle" tests="3" started="0" failures="0" errors="1" ignored="0">
+  <testsuite name="com.example.project.GestorEmpleadosTest" incomplete="true" displayname="GestorEmpleadosTest" uniqueid="[engine:junit-jupiter]/[class:com.example.project.GestorEmpleadosTest]">
+    <error>org.junit.platform.commons.JUnitException: @BeforeAll method 'public void com.example.project.GestorEmpleadosTest.setUp()' must be static unless the test class is annotated with @TestInstance(Lifecycle.PER_CLASS).
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1092)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+</error>
+    <testcase name="testAgregarEmpleado" classname="com.example.project.GestorEmpleadosTest" incomplete="true" displayname="testAgregarEmpleado()" uniqueid="[engine:junit-jupiter]/[class:com.example.project.GestorEmpleadosTest]/[method:testAgregarEmpleado()]"/>
+    <testcase name="testCalcularSalarioTotal" classname="com.example.project.GestorEmpleadosTest" incomplete="true" displayname="testCalcularSalarioTotal()" uniqueid="[engine:junit-jupiter]/[class:com.example.project.GestorEmpleadosTest]/[method:testCalcularSalarioTotal()]"/>
+    <testcase name="testEmpleadoConMayorSalario" classname="com.example.project.GestorEmpleadosTest" incomplete="true" displayname="testEmpleadoConMayorSalario()" uniqueid="[engine:junit-jupiter]/[class:com.example.project.GestorEmpleadosTest]/[method:testEmpleadoConMayorSalario()]"/>
+  </testsuite>
+</testrun>

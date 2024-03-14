@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GestorEmpleadosTest" project="junit5-migration-gradle" tests="3" started="3" failures="0" errors="3" ignored="0">
+  <testsuite name="com.example.project.GestorEmpleadosTest" time="0.02" displayname="GestorEmpleadosTest" uniqueid="[engine:junit-jupiter]/[class:com.example.project.GestorEmpleadosTest]">
+    <testcase name="testAgregarEmpleado" classname="com.example.project.GestorEmpleadosTest" time="0.013" displayname="testAgregarEmpleado()" uniqueid="[engine:junit-jupiter]/[class:com.example.project.GestorEmpleadosTest]/[method:testAgregarEmpleado()]">
+      <error>java.lang.NullPointerException: Cannot invoke "com.example.project.GestorEmpleados.agregarEmpleado(com.example.project.Empleado)" because "this.gestorEmpleados" is null
+	at com.example.project.GestorEmpleadosTest.testAgregarEmpleado(GestorEmpleadosTest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+</error>
+    </testcase>
+    <testcase name="testCalcularSalarioTotal" classname="com.example.project.GestorEmpleadosTest" time="0.006" displayname="testCalcularSalarioTotal()" uniqueid="[engine:junit-jupiter]/[class:com.example.project.GestorEmpleadosTest]/[method:testCalcularSalarioTotal()]">
+      <error>java.lang.NullPointerException: Cannot invoke "com.example.project.GestorEmpleados.agregarEmpleado(com.example.project.Empleado)" because "this.gestorEmpleados" is null
+	at com.example.project.GestorEmpleadosTest.testCalcularSalarioTotal(GestorEmpleadosTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+</error>
+    </testcase>
+    <testcase name="testEmpleadoConMayorSalario" classname="com.example.project.GestorEmpleadosTest" time="0.0" displayname="testEmpleadoConMayorSalario()" uniqueid="[engine:junit-jupiter]/[class:com.example.project.GestorEmpleadosTest]/[method:testEmpleadoConMayorSalario()]">
+      <error>java.lang.NullPointerException: Cannot invoke "com.example.project.GestorEmpleados.agregarEmpleado(com.example.project.Empleado)" because "this.gestorEmpleados" is null
+	at com.example.project.GestorEmpleadosTest.testEmpleadoConMayorSalario(GestorEmpleadosTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

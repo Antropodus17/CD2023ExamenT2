@@ -1,5 +1,4 @@
 INDEX VERSION 1.134+/home/vagrant/Documentos/2ºExamen/CD2023ExamenT2/e3/.metadata/.plugins/org.eclipse.jdt.core
-145768993.index
 235831649.index
 4057121097.index
 3932687103.index

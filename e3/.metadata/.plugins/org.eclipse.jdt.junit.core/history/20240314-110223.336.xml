@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BusquedaBinariaTest" project="junit5-migration-gradle" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.project.BusquedaBinariaTest" time="0.025" displayname="BusquedaBinariaTest" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]">
+    <testcase name="busqueda1Test" classname="com.example.project.BusquedaBinariaTest" time="0.014" displayname="Proba 1" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]/[method:busqueda1Test()]"/>
+    <testcase name="busqueda2Test" classname="com.example.project.BusquedaBinariaTest" time="0.001" displayname="Proba 2" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]/[method:busqueda2Test()]"/>
+    <testcase name="busqueda3Test" classname="com.example.project.BusquedaBinariaTest" time="0.001" displayname="Proba 3" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]/[method:busqueda3Test()]"/>
+    <testcase name="busqueda4Test" classname="com.example.project.BusquedaBinariaTest" time="0.002" displayname="Proba 4" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]/[method:busqueda4Test()]"/>
+    <testcase name="busqueda5Test" classname="com.example.project.BusquedaBinariaTest" time="0.003" displayname="Proba 5" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]/[method:busqueda5Test()]"/>
+    <testcase name="busqueda6Test" classname="com.example.project.BusquedaBinariaTest" time="0.001" displayname="Proba 6" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]/[method:busqueda6Test()]"/>
+  </testsuite>
+</testrun>
