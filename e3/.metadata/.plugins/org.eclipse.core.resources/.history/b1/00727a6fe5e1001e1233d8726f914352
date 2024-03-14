@@ -1,0 +1,12 @@
+package com.example.project;
+
+import org.junit.jupiter.api.DisplayName;
+
+public class CalculadoraExamenTest {
+    
+	@Test
+	@DisplayName("")
+	public static void Getters&Setters(){
+		
+	}
+}

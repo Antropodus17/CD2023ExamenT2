@@ -1,0 +1,10 @@
+package com.example.project;
+
+import java.util.regex.Pattern;
+
+public class EmailValidator {
+	
+	public boolean isValid(String email) {
+		return Pattern.matches("^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$", email);
+	}
+}

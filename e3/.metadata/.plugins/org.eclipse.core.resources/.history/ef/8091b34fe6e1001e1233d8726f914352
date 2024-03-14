@@ -1,0 +1,39 @@
+package com.example.project;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+public class CalculadoraExamenTest {
+    
+	@Test
+	@DisplayName("")
+	public static void GettersSetters(){
+		CalculadoraExamen c=new CalculadoraExamen(1, 2);
+		c.setA(5);
+		assertEquals(5, c.getA());
+		c.setB(9);
+		assertEquals(9, c.getB());
+	}
+	
+	@Test
+	@DisplayName("Probas Suma")
+	public static void sumaTest() {
+		CalculadoraExamen c=new CalculadoraExamen(2, 5);
+		assertEquals(7, c.sumar());
+	}
+	@Test
+	@DisplayName("Probas Resta")
+	public static void restaTest() {
+		CalculadoraExamen c=new CalculadoraExamen(2, 5);
+		assertEquals(-3, c.restar());
+	}
+	
+	@Test
+	@DisplayName("Probas multilicacion")
+	public static void multTest() {
+		CalculadoraExamen c=new CalculadoraExamen(2, 5);
+		assertEquals(10, c.multiplicar());
+	}
+}
