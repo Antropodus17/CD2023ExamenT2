@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BusquedaBinariaTest" project="junit5-migration-gradle" tests="6" started="6" failures="1" errors="0" ignored="0">
+  <testsuite name="com.example.project.BusquedaBinariaTest" time="0.007" displayname="BusquedaBinariaTest" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]">
+    <testcase name="busqueda1Test" classname="com.example.project.BusquedaBinariaTest" time="0.0" displayname="Proba 1" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]/[method:busqueda1Test()]"/>
+    <testcase name="busqueda2Test" classname="com.example.project.BusquedaBinariaTest" time="0.0" displayname="Proba 2" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]/[method:busqueda2Test()]"/>
+    <testcase name="busqueda3Test" classname="com.example.project.BusquedaBinariaTest" time="0.0" displayname="Proba 3" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]/[method:busqueda3Test()]"/>
+    <testcase name="busqueda4Test" classname="com.example.project.BusquedaBinariaTest" time="0.0" displayname="Proba 4" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]/[method:busqueda4Test()]"/>
+    <testcase name="busqueda5Test" classname="com.example.project.BusquedaBinariaTest" time="0.0" displayname="Proba 5" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]/[method:busqueda5Test()]"/>
+    <testcase name="busqueda6Test" classname="com.example.project.BusquedaBinariaTest" time="0.007" displayname="Proba 6" uniqueid="[engine:junit-jupiter]/[class:com.example.project.BusquedaBinariaTest]/[method:busqueda6Test()]">
+      <failure>
+        <expected>-1</expected>
+        <actual>2</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;-1&gt; but was: &lt;2&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:531)
+	at com.example.project.BusquedaBinariaTest.busqueda6Test(BusquedaBinariaTest.java:59)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>
